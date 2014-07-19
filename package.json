@@ -1,0 +1,27 @@
+{
+  "name": "jquery.msg",
+  "version": "1.1.1",
+  "description": "弹出指定格式、样式消息，可以是alert、confirm等其他类型信息",
+  "keywords": [
+    "jquery",
+    "yquery",
+    "ydr",
+    "alert",
+    "confirm",
+    "msg"
+  ],
+  "author": {
+    "name": "cloudcome",
+    "email": "cloudcome@163.com"
+  },
+  "homepage": "https://ydr.me/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloudcome/jquery.msg"
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "jquery.msg.js",
+    "dependencies": {}
+  }
+}
