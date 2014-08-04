@@ -6,11 +6,21 @@
 
 
 #USAGE
+**index.html**
+```
+<script src="sea.js"></script>
+<script src="sea-style.js"></script>
+<script>
+    seajs.config({
+        base: 'path/to/dist'
+    });
+    seajs.use('demo');
+</script>
+```
+
+**demo.js**
 ```
 var $ = require('jquery');
-// 在使用require css 之前，必须先加载 sea-style.css
-// <script src="sea.js"></script>
-// <script src="sea-style.js"></script>
 require('jquery.msg.css');
 require('jquery.msg')($);
 

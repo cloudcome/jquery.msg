@@ -374,11 +374,23 @@ td:not(.linenos) .linenodiv { padding: 0 !important; }
   h2, h3 { page-break-after: avoid; }
 }
 </style><title>README</title></head><body><h1 id="jquerymsg"><a name="user-content-jquerymsg" href="#jquerymsg" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>jquery.msg <a href="http://spmjs.io/package/jquery.msg"><img alt="spm version" src="http://spmjs.io/badge/jquery.msg" /></a></h1>
+<p>弹出指定格式、样式消息，可以是alert、confirm等其他类型信息</p>
+<h1 id="demo"><a name="user-content-demo" href="#demo" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>DEMO</h1>
+<p><a href="http://festatic.aliapp.com/js/jquery.msg/"><a href="http://festatic.aliapp.com/js/jquery.msg/"><a href="http://festatic.aliapp.com/js/jquery.msg/">http://festatic.aliapp.com/js/jquery.msg/</a></a></a></p>
 <h1 id="usage"><a name="user-content-usage" href="#usage" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>USAGE</h1>
+<p><strong>index.html</strong></p>
+<pre><code>&lt;script src=&quot;sea.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;sea-style.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+    seajs.config({
+        base: 'path/to/dist'
+    });
+    seajs.use('demo');
+&lt;/script&gt;
+</code></pre>
+
+<p><strong>demo.js</strong></p>
 <pre><code>var $ = require('jquery');
-// 在使用require css 之前，必须先加载 sea-style.css
-// &lt;script src=&quot;sea.js&quot;&gt;&lt;/script&gt;
-// &lt;script src=&quot;sea-style.js&quot;&gt;&lt;/script&gt;
 require('jquery.msg.css');
 require('jquery.msg')($);
 
