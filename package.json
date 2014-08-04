@@ -11,10 +11,11 @@
     "msg"
   ],
   "author": {
-    "name": "cloudcome",
-    "email": "cloudcome@163.com"
+    "name":"cloudcome",
+    "email":"cloudcome@163.com",
+    "url": "http://ydr.me/"
   },
-  "homepage": "https://ydr.me/",
+  "homepage": "http://festatic.aliapp.com/js/jquery.msg/",
   "repository": {
     "type": "git",
     "url": "https://github.com/cloudcome/jquery.msg"

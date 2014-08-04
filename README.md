@@ -1,16 +1,17 @@
 # jquery.msg [![spm version](http://spmjs.io/badge/jquery.msg)](http://spmjs.io/package/jquery.msg)
-AUTHOR WEBSITE: [http://ydr.me/](http://ydr.me/)
-
 弹出指定格式、样式消息，可以是alert、confirm等其他类型信息
 
-__IT IS [A spm package](http://spmjs.io/package/jquery.msg).__
-
-
+# DEMO
+[http://festatic.aliapp.com/js/jquery.msg/](http://festatic.aliapp.com/js/jquery.msg/)
 
 
 #USAGE
 ```
 var $ = require('jquery');
+// 在使用require css 之前，必须先加载 sea-style.css
+// <script src="sea.js"></script>
+// <script src="sea-style.js"></script>
+require('jquery.msg.css');
 require('jquery.msg')($);
 
 // 1. 弹出消息，
